@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 * {
   margin: 0;
@@ -113,4 +114,21 @@ header {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+.quote {
+  height: 350px;
+  margin: 5rem auto;
+  width: 100%;
+  background: #e5e7eb;
+  padding: 65px 0;
+}
+.quote p {
+  font-size: 36px;
+  text-align: center;
+  color: #1f2937;
+  font-family: 'Roboto', sans-serif;
+}
+.person {
+  margin-left: 55rem;
+  margin-top: 2rem;
 }

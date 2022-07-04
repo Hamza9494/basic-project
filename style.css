@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -89,4 +91,26 @@ header {
 .hero-text {
   letter-spacing: 0.25px;
   line-height: 1.25;
+}
+.features-title {
+  text-align: center;
+  margin: 4rem 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+}
+.single-feature {
+  height: 140px;
+  width: 140px;
+  border: solid 2px #3882f6;
+  border-radius: 10px;
+  margin: 0 0.5rem;
+}
+.feature-info {
+  margin: 5px 10px;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }

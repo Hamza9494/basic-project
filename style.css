@@ -162,6 +162,7 @@ header {
   flex: 1;
 }
 footer {
+  margin-top: 5rem;
   height: 80px;
   text-align: center;
   color: white;

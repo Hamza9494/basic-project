@@ -161,3 +161,10 @@ header {
 .action-info {
   flex: 1;
 }
+footer {
+  height: 80px;
+  text-align: center;
+  color: white;
+  background: #1f2937;
+  padding: 2rem 0;
+}
